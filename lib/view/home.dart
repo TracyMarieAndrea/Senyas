@@ -1,10 +1,10 @@
-import 'dart:js';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:senyas/main.dart';
+
+import 'drawer.dart';
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -21,6 +21,11 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        
+      ),
+      drawer: AppDrawer(),
+    );
   }
 }
