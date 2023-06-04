@@ -1,0 +1,7 @@
+Angry
+Contempt
+Disgust
+Fear
+Happy
+Sad
+Surprise
