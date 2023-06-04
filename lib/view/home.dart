@@ -1,19 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
-import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:senyas/main.dart';
 import 'package:tflite/tflite.dart';
-
-Future main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  FlutterNativeSplash.removeAfter(initialization);
-  runApp(const MyApp());
-}
-
-Future initialization(BuildContext context) async {
-  await Future.delayed(const Duration(seconds: 3));
-}
-
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
